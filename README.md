@@ -2,9 +2,9 @@
 
 A small database project I'm building in C++ to learn how databases work.
 
-## v0.1
+## v0.2
 
-Right now it just prints a menu and exits. Creating tables, adding rows, and showing data don't work yet.
+The menu now takes input and keeps running until you enter 0. It handles invalid input too. The table options only print messages for now, and nothing is saved yet.
 
 ## Run it
 
@@ -16,4 +16,4 @@ cmake --build build
 ./build/IronDB
 ```
 
-Next up: make the menu take input.
+Next up: add basic table creation.
