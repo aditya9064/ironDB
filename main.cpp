@@ -1,3 +1,6 @@
+/** Course: CSC2210
+Instructor: Dr. Ukegbu **/
+
 #include <iostream>
 #include <limits>
 using namespace std;
