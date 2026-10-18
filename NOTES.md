@@ -6,6 +6,12 @@
 - Columns store values in a pointer array that grows when full.
 - Adding or updating a row changes every column so they stay the same length.
 - Made the menu options work and added Update Row.
+- Used (new to me c++ feature) Switch to handle user input for the various table actions 
+- If Using VS-Code / Terminal to run use "clang++ -std=c++20 main.cpp Table.cpp Column.cpp -o build/IronDB && ./build/IronDB"
+    * I strugled with this for awhile running into linker errors because I was used to the plain main.cpp flow
+- Further improvements include:
+    * Storing data in arrays so objects can be stored 
+    * Adding a way to recover more gracefully from improper input (dont reset user to original "menu")
 
 ## v0.2
 
