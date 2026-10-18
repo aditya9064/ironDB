@@ -1,5 +1,8 @@
 /** Course: CSC2210
-Instructor: Dr. Ukegbu **/
+Instructor: Dr. Ukegbu 
+Last Modifier: Liam Salas, Aditya Miriyala
+Last Modified: 2026-10-18
+**/
 
 #include <iostream>
 #include <limits>
@@ -43,7 +46,7 @@ Table* askForTable(Table* tables[], int count) {
     return table;
 }
 
-// Asks for one value per column. The caller must delete[] the result.
+// Asks for one value per column. 
 string* askForRow(Table* table) {
     string* values{new string[table->getColumnCount()]};
     for (int i = 0; i < table->getColumnCount(); i++) {
@@ -68,7 +71,7 @@ int main() {
         cout << "3. Show Table\n";
         cout << "4. List Tables\n";
         cout << "5. Update Row\n";
-        cout << "0. Exit\n";
+        cout << "0. Exit" << endl; // force buffer flush
 
         cout << "Enter your choice: ";
         if (!readInt(choice)) {

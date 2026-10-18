@@ -1,5 +1,8 @@
 /** Course: CSC2210
-Instructor: Dr. Ukegbu **/
+Instructor: Dr. Ukegbu 
+Last Modifier: Liam Salas 
+Last Modified: 2026-10-18
+**/
 
 #include "Table.h"
 #include <iostream>
