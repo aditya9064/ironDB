@@ -1,5 +1,12 @@
 # Notes
 
+## v0.3
+
+- Added Column and Table classes in their own .h and .cpp files.
+- Columns store values in a pointer array that grows when full.
+- Adding or updating a row changes every column so they stay the same length.
+- Made the menu options work and added Update Row.
+
 ## v0.2
 
 - Made the menu repeat until the user enters 0.
