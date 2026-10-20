@@ -1,5 +1,13 @@
 # Development log
 
+## v0.3
+
+- Split the code into Column and Table classes with .h and .cpp files.
+- Used new[] and delete[] to make arrays that can grow.
+- Learned that a class that deletes memory should not be copied, so I turned copying off.
+- Freed every table when the program exits.
+- Next I want to save tables to a file.
+
 ## v0.2
 
 - Added a loop so the menu stays open.
